@@ -1,0 +1,99 @@
+
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+.card {
+    background-color: #16213e;
+    border: none;
+    border-radius: 15px;
+}
+
+.card-title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    background-color: #0f3460;
+    border: 1px solid #3d52a0;
+    color: #e0e0e0;
+    border-radius: 8px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #1a1a2e;
+    border-color: #7a3de3;
+    box-shadow: 0 0 0 0.25rem rgba(122, 61, 227, 0.25);
+    color: #e0e0e0;
+}
+
+.form-control::placeholder {
+    color: #9a9a9a;
+}
+
+.form-label {
+    color: #c0c0c0;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #3d52a0;
+    border-color: #3d52a0;
+}
+
+.btn-primary:hover {
+    background-color: #4c66c3;
+    border-color: #4c66c3;
+}
+
+.btn-success {
+    background-color: #7a3de3;
+    border-color: #7a3de3;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #935bf4;
+    border-color: #935bf4;
+}
+
+.input-group:focus-within {
+    border-color: #7a3de3;
+    box-shadow: 0 0 0 0.25rem rgba(122, 61, 227, 0.25);
+}
+
+hr {
+    border-color: #3d52a0;
+}
+
+#prediction-result {
+    transition: all 0.3s ease-in-out;
+}
+
+.alert-success {
+    background-color: #1e6f5c;
+    color: #ffffff;
+    border-color: #175d4d;
+}
+
+.alert-danger {
+    background-color: #e94560;
+    color: #ffffff;
+    border-color: #d82e4b;
+}
+
+.alert-info {
+    background-color: #2e8a99;
+    color: #ffffff;
+    border-color: #277481;
+}
+
+fieldset:disabled .form-control,
+fieldset:disabled .form-select {
+    background-color: #2a2a4a;
+    opacity: 0.6;
+}
