@@ -1,5 +1,12 @@
 ## HOW TO RUN 
 
+# dataset
+
+dataset yang digunakan pada project ini kami gunakan dataset dari kaggle di bawah ini: 
+
+https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia
+
+
 # 1. Clone Repository
 Buka terminal atau Git Bash dan clone repository ini ke komputer Anda.
 
