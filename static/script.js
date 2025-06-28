@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const uploadForm = document.getElementById('upload-form');
     const predictionForm = document.getElementById('prediction-form');
+    const fileInput = document.getElementById('csv-file');
 
     const uploadButton = document.getElementById('upload-button');
     const predictButton = document.getElementById('predict-button');
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const formData = new FormData();
+        formData.append('csv-file', fileInput.files[0]); 
 
         uploadSpinner.classList.remove('d-none');
         uploadButton.disabled = true;
@@ -73,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
             mode: document.getElementById('mode').value,
             bed: document.getElementById('bed').value,
             bath: document.getElementById('bath').value,
-            tanah: document.getElementById('tanah').value,
             bangunan: document.getElementById('bangunan').value,
             location: document.getElementById('location').value,
             model: document.getElementById('model').value,
